@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ContactPage</title>
+	<link rel="stylesheet" type="text/css" href="../Styles/contact.css">
+	<script type="text/javascript" src="../JS/contact.js"></script>
+</head>
+<body>
+	<div class="heading">
+		<h1 id="welcome_head">WELCOME TO MY CONTACT PAGE!</h1>
+		<div id="links">
+			<button class="button button1">
+				<a href="home.html">HOME</a>
+			</button>
+			<button class="button button2">
+				<a href="skills.html">SKILLS</a>
+			</button>
+			<button class="button button3">
+				<a href="project.html">PROJECTS</a>
+			</button>
+			<button class="button button4">
+				<a href="gallery.html">GALLERY</a>
+			</button>
+			<button class="button button5">
+				<a href="contact.html">CONTACT</a>
+			</button>
+
+		</div>
+	</div>
+	<div class="content">
+		<div class="col">
+			<div class="nice-border"><img class="profile" src="../Images/profile_pic.jpg" alt="My Photo"></div>
+			<table>
+			<tr>
+				<td>Name</td>
+				<td>: Suman Nepali</td>
+			</tr>
+				<tr>
+				<td>Email</td>
+				<td>: hlw.zigri@gmail.com</td>
+			</tr>
+				<tr>
+				<td>Mobile</td>
+				<td>: +358 469545662</td>
+			</tr>
+				<tr>
+				<td>Facebook</td>
+				<td>: dallusuman</td>
+			</tr>
+		</table>
+		</div>
+	<div class="col">
+		<div class="nice-border">
+			<h1>Contact Me</h1>
+		<form id="myForm">
+			<label>First Name*</label>
+		    <input type="text" id="fname" required placeholder="YourFirstName" maxlength="25">
+
+		    <label>Last Name*</label>
+		    <input type="text" id="lname" required placeholder="YourLastName" maxlength="25">
+
+		    <label>Gender*</label>
+		    <select id="gender">
+		      <option value="male">Male</option>
+		      <option value="female">Female</option>
+		    </select>
+
+		    <label>Age*</label>
+		    	<input type="text" id="age" min="18" max="100" required>
+
+		    <label for="email">Email*</label>
+		    	<input type="email" id="email" placeholder="example@gmail.com" maxlength="50" required>
+
+		    <label>Web Address*</label>
+		    	<input type="url" id="webad" maxlength="50" placeholder="http://www.example.com" required>
+
+			<label>Comment*</label>
+		    	<textarea id="subject" placeholder="Write something.." maxlenght="255" required></textarea>
+
+		    <input id="re" type="button" onclick="myFunction()" value="Reset form">
+		    <input id="sub" type="submit" onclick="check_info();" value="Submit">
+		</form>
+		</div>
+	</div>
+
+	<div class="foo"></div>
+
+
+	<p id="input_fname"></p>
+	<p id="input_lname"></p>
+	<p id="input_gender"></p>
+	<p id="input_age"></p>
+	<p id="input_email"></p>
+	<p id="input_webad"></p>
+	<p id="input_subject"></p>
+
+</div>
+</body>
+</html>

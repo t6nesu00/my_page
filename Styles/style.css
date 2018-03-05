@@ -1,0 +1,56 @@
+body {
+	background-color: #141826;
+	margin:0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.main {
+    /* The image used is inside the Images folder which is not inside the Styles folder. So first we need to come out from Styles
+    then only can go inside Images */
+    background-image: url("../Images/dashain_2017.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+		background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+	padding: 5px;
+	margin: 15px;
+	float: left;
+
+}
+#welcome{
+	opacity: 0.3;
+}
+
+.button{
+    border: none;
+    color: blue;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+#welcome_head{
+	color: #85C4DA
+}

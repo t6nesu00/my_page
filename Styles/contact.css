@@ -1,0 +1,90 @@
+body{
+	background-color: powderblue;
+}
+.profile{
+	height: 300px;
+	width: 250px;
+	margin: auto;
+	padding: 15px;
+
+}
+
+.col{
+	float: left;
+	width: 50%;
+}
+.nice-border{
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.content{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+table{
+	font-family: "Arial", Times, sans-serif;
+	font-size: 30px;
+	color: DarkBlue;
+}
+.profile_info{
+	font-size: 25px;
+	margin: 10px 0px 0px 10px;
+}
+.contact{
+	height: 500px;
+	width: 450px;
+}
+#subject{
+	height: 80px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+#email, #webad, #url{
+	width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+#re{
+	float: right;
+	background-color: blue;
+	padding: 5px;
+	color: white;
+}
+#sub{
+	float: right;
+	background-color: blue;
+	padding: 5px;
+	color: white;
+}
+#re:hover{
+	background-color: green;
+}
+#sub:hover{
+	background-color: green;
+}
+.foo{
+	clear: both;
+}
+.button:hover {
+    background-color: #008CBA;
+    color: white;
+}

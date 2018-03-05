@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Skill_page</title>
+	<link rel="stylesheet" type="text/css" href="../Styles/style.css">
+	<link rel="stylesheet" type="text/css" href="../Styles/skill.css">
+	<script src="../JS/skillChange.js"></script>
+</head>
+<body>
+	<div class="main_container">
+		<!-- heading starts here -->
+		<div class="heading">
+			<h1 id="welcome_head">WELCOME TO MY SKILL PAGE!</h1>
+			<div id="links">
+				<button class="button button1">
+					<a href="home.html">HOME</a>
+				</button>
+				<button class="button button2">
+					<a href="skills.html">SKILLS</a>
+				</button>
+				<button class="button button3">
+					<a href="project.html">PROJECTS</a>
+				</button>
+				<button class="button button4">
+					<a href="gallery.html">GALLERY</a>
+				</button>
+				<button class="button button5">
+					<a href="contact.html">CONTACT</a>
+				</button>
+
+			</div>
+		</div>
+			<!-- heading ends here -->
+	<div>
+		<table class="head_table">
+			<tr>
+				<th>Skill</th>
+				<th>Short Description</th>
+				<th>ImageID</th>
+			</tr>
+		</table>
+	</div>
+
+	<table id="myTable">
+	  <tr>
+	    <td>Teaching</td>
+	    <td>Need to take class being a tutor</td>
+	    <td>ImageOne</td>
+	  </tr>
+	  <tr>
+	    <td>Diploma</td>
+	    <td>Successfully completed diploma course in computer</td>
+	    <td>ImageTwo</td>
+	  </tr>
+		<tr>
+			<td>Basic</td>
+			<td>Successfully completed basic course in computer</td>
+			<td>ImageThree</td>
+		</tr>
+	</table>
+	<br>
+	<h4>Please fill the form below to add new skill</h4>
+	<div class="input_data">
+		<div class="add_new_skill">
+			<label id="skill">Write your skill:</label>
+			<input type="text" id="first" value="Skill"><br>
+			<label id="skill">Give short descirption:</label>
+			<input type="text" id="second" value="Description"><br>
+			<label id="skill">Give image ID:</label>
+			<input type="text" id="third" value="Image"><br>
+		</div>
+
+	</div>
+	<div class="add_btn">
+		<button class="button adding" onclick="myCreateFunction(); myDeleteFunction()">Add New</button>
+	</div>
+	
+
+	<div class="download_part">
+	<h2>DOWNLOAD MY CV</h2>
+		<button class="button pdf"><a href="cv_pdf.html" target="_blank">PDF</a></button>
+		<button class="button word"><a href="cv_word.html" target="_blank">WORD</a></button>
+		</div>
+	</div>
+
+</html>

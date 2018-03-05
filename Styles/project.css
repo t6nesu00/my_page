@@ -1,0 +1,12 @@
+body{
+	background-color: powderblue;
+}
+img {
+	float: right;
+	height: 180px;
+	width: 200px:;
+	margin-left: 15px;
+}
+.project_body{
+	margin-top: 15px;
+}
